@@ -1,0 +1,25 @@
+<div class="d-flex justify-content-center p-4 primary-color">
+  <form [formGroup]="test01Form" (ngSubmit)="onSubmit()">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Paramètre(s)"
+        formControlName="valueInput"
+      />
+      <button type="submit" class="btn btn-primary">Tester</button>
+    </div>
+    <div class="input-group mb-3">
+      <input
+        class="form-control"
+        type="text"
+        [value]="resultat"
+        placeholder="Résultat"
+        readonly
+      />
+      <button class="btn btn-secondary" (click)="onClear()" type="button">
+        Réinitialiser
+      </button>
+    </div>
+  </form>
+</div>

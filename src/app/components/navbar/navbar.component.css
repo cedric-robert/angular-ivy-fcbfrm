@@ -1,0 +1,11 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: aqua;
+}
+
+ul li {
+  padding: 0.5rem;
+}
