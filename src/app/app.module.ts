@@ -16,7 +16,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: HomePageComponent },
-      { path: 'two', component: Test01Component },
+      { path: 'home', component: HomePageComponent },
+      { path: 'test01', component: Test01Component },
     ]),
   ],
   declarations: [

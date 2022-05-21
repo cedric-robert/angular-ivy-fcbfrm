@@ -3,9 +3,15 @@ ul {
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
-  background-color: aqua;
+  background-color: var(--Architecture-1-hex);
+  margin-bottom: 0;
 }
 
 ul li {
   padding: 0.5rem;
+}
+
+a {
+  color: var(--Architecture-4-hex);
+  text-decoration: none;
 }

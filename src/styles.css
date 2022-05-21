@@ -4,3 +4,11 @@
 /* body {
   font-family: 'Roboto', sans-serif;
 } */
+
+:root {
+  --Architecture-1-hex: #113859;
+  --Architecture-2-hex: #275d8c;
+  --Architecture-3-hex: #73a9d9;
+  --Architecture-4-hex: #9bdaf2;
+  --Architecture-5-hex: #42858c;
+}
