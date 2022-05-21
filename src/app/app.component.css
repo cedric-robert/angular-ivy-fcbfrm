@@ -6,7 +6,7 @@ p {
   background-color: cadetblue;
 }
 
-.container {
+.app {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
