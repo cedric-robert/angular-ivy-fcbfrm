@@ -2,6 +2,10 @@ p {
   font-family: Lato;
 }
 
+.layout2 {
+  background-color: cadetblue;
+}
+
 .container {
   display: flex;
   flex-direction: column;
